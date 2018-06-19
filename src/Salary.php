@@ -1,7 +1,7 @@
 <?php
 
 class Salary {
-    const NET_PERCENTAGE = 30;
+    const NET_PERCENTAGE = 55;
     
     public static function getNetMonthlySalary($grossMonthlySalary) : int
     {
