@@ -42,6 +42,11 @@ final class EmployeeTest extends TestCase
         $this->assertInstanceOf(
             Email::class,
             $employee->getEmail());
+        
+        $this->assertEquals(
+            'user@example.com',
+            $employee->getEmail()
+        );
     }
     
         
@@ -57,4 +62,3 @@ final class EmployeeTest extends TestCase
         $this->assertEquals(5000 / 100 * Salary::NET_PERCENTAGE, $employee->getNetMonthlySalary());
     }
 }
-
