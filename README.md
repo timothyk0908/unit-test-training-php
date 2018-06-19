@@ -34,11 +34,11 @@ Step by step
 This is how you run the tests 
 ```
 ./vendor/bin/phpunit --bootstrap vendor/autoload.php --testdox tests
-``
+``` 
 
 ### Instructions of the project
 
-``
+```
 1. Run the tests once, everything should be passing (only 3 tests for Email).
 2. Create an Employee class, that has firstName, lastName and email properties
 3. Create EmployeeTest file, like EmailTest is setup and create test to assess a created Employee object is an instance of Employee
