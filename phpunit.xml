@@ -20,4 +20,11 @@
          timeoutForLargeTests="60"
          verbose="false">
   <!-- ... -->
+
+<testsuites>
+    <testsuite name="Project Test Suite">
+        <directory>./tests</directory>
+    </testsuite>
+</testsuites>
+
 </phpunit>
