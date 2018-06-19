@@ -24,7 +24,7 @@ Step by step
 
 ```
 1. Clone repository
-2. run composer install'
+2. run composer install
 3. Make sure you're on master branch
 4. You are ready to go !
 ```
