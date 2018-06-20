@@ -20,6 +20,6 @@ class Salary {
     	return array_sum(
     		array_map('self::getNetMonthlySalary', $grossSalaries)
     	);	
-    	
+    	**/
     }
 }
