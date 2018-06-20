@@ -46,8 +46,8 @@ This is how you run the tests
 3. Create EmployeeTest file, like EmailTest is setup and create test to assess 
 a created Employee object is an instance of Employee.
 
-4. Implement Employee constructor that constructs an Employee object with
- firstName, lastName and email ( the constructor will receive a string 
+4. Implement Employee constructor that constructs an Employee object with 
+firstName, lastName and email ( the constructor will receive a string 
 but the property should be set as an Email object ).
 
 5. Create 1 or 2 getter tests before generating them in Employee Class.

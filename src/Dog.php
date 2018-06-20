@@ -2,8 +2,20 @@
 
 final class Dog extends Animal {
 
-	public function __construct($legs, $hasFur) {
-		$this->legs = $legs;
-		$this->hasFur = $hasFur;
+	private $isAGoodBoy;
+
+	public function __construct() {
+		$this->legs = 4;
+		$this->hasFur = true;
+        $this->isAGoodBoy = true;
 	}
+
+
+    /**
+     * @return bool
+     */
+    public function isAGoodBoy()
+    {
+        return $this->isAGoodBoy;
+    }
 }
