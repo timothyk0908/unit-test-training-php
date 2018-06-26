@@ -60,5 +60,5 @@ final class EmployeeTest extends TestCase
         );
         
         $this->assertEquals(5000 / 100 * Salary::NET_PERCENTAGE, $employee->getNetMonthlySalary());
-    }
+    }          
 }

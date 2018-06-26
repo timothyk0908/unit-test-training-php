@@ -17,34 +17,31 @@ class Employee {
         $this->company = $company;
     }
 
-    public function getFullName() {
+    public function getFullName() : string {
         return $this->firstName . ' ' . $this->lastName;
     }
 
-    public function getFirstName() {
+    public function getFirstName() : string {
         return $this->firstName;
     }
 
-    public function getLastName() {
+    public function getLastName() : string {
         return $this->lastName;
     }
 
-    public function getEmail() {
+    public function getEmail() : Email {
         return $this->email;
     }
     
-    public function getGrossMonthlySalary() {
+    public function getGrossMonthlySalary() : int {
         return $this->grossMonthlySalary;
     }
     
-    public function getNetMonthlySalary() {
+    public function getNetMonthlySalary() : int {
         return Salary::getNetMonthlySalary($this->grossMonthlySalary);
     }
 
-    /**
-     * @return string
-     */
-    public function getCompany()
+    public function getCompany() : string
     {
         return $this->company;
     }
