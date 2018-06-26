@@ -26,7 +26,9 @@ final class EmployeeTest extends TestCase
             Employee::class,
             $employee
         );
-        
+
+        $this->assertEquals('jack', $employee->getFirstName());
+        $this->assertEquals('sparrow', $employee->getLastName());
         $this->assertEquals('jack sparrow', $employee->getFullName());
     }
     
