@@ -16,6 +16,7 @@ You only need
 
 ```
 composer
+php > 7.1 installed
 ```
 
 ### Installing
